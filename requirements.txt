@@ -1,0 +1,6 @@
+psutil
+wmi
+requests
+schedule
+slack-sdk
+scikit-learn

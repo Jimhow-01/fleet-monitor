@@ -1,0 +1,1 @@
+python "%~dp0..\disk\disk_forecast.py"
