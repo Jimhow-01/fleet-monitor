@@ -2,7 +2,7 @@
 
 > Inventário de hardware por WMI, previsão de esgotamento de disco com regressão linear e alertas em Slack/ClickUp para um parque de máquinas Windows.
 
-![CI](https://img.shields.io/github/actions/workflow/status/Jimhow-01/fleet-monitor/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white) ![Tests](https://img.shields.io/badge/tests-4%20passing-brightgreen?logo=pytest&logoColor=white) ![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey) ![Status](https://img.shields.io/badge/status-portfolio%20showcase-lightgrey)
+![CI](https://img.shields.io/github/actions/workflow/status/Jimhow-01/fleet-monitor/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white) ![Tests](https://img.shields.io/badge/tests-17%20passing-brightgreen?logo=pytest&logoColor=white) ![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey) ![Status](https://img.shields.io/badge/status-portfolio%20showcase-lightgrey)
 
 ![Python](https://img.shields.io/badge/Python-377641?logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E) ![WMI](https://img.shields.io/badge/WMI-0078D4) ![Slack](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white) ![ClickUp](https://img.shields.io/badge/ClickUp-7B68EE) ![Firebase](https://img.shields.io/badge/Firebase-FFA100?logo=firebase&logoColor=white)
 
@@ -61,7 +61,7 @@ Há versões sucessivas do mesmo agente (`fleet_agent`, `fleet_agent_v2`, `fleet
 ```bash
 pip install -r requirements.txt -r requirements-dev.txt
 ruff check .          # lint
-pytest                # 4 testes
+pytest                # 17 testes
 ```
 
 O CI roda lint, `compileall` e pytest em `windows-latest` (Python 3.11 e 3.12) a cada
